@@ -18,26 +18,26 @@ from pyrogram import filters
 
 load_dotenv()
 
-API_ID = int(getenv("API_ID", ""))
-API_HASH = getenv("API_HASH")
+API_ID = int(getenv("API_ID", "10284859"))
+API_HASH = getenv("API_HASH", "b0ad58eb8b845ba0003e0d9ce5fc2196")
 
-BOT_TOKEN = getenv("BOT_TOKEN")
+BOT_TOKEN = getenv("BOT_TOKEN", "5791761493:AAFtFHtv-8iDO8OCab9rI8vElEjvwAX7Rkk")
 
 MONGO_DB_URI = getenv("MONGO_DB_URI", None)
 
-DURATION_LIMIT_MIN = int(getenv("DURATION_LIMIT", "900"))
+DURATION_LIMIT_MIN = int(getenv("DURATION_LIMIT", "600"))
 
 SONG_DOWNLOAD_DURATION = int(getenv("SONG_DOWNLOAD_DURATION_LIMIT", "180"))
 
-LOG_GROUP_ID = int(getenv("LOG_GROUP_ID", ""))
+LOG_GROUP_ID = int(getenv("LOG_GROUP_ID", "-1001853853435"))
 
-MUSIC_BOT_NAME = getenv("MUSIC_BOT_NAME", "乛𝘼𝙇𝙀𝙓𝘼🕊️⃝🦋⁪⁬𝙈𝙐𝙎𝙄𝘾")
+MUSIC_BOT_NAME = getenv("MUSIC_BOT_NAME", "angel music")
 
-OWNER_ID = list(map(int, getenv("OWNER_ID", "6174058850").split()))
+OWNER_ID = list(map(int, getenv("OWNER_ID", "5613528193").split()))
 
 HEROKU_API_KEY = getenv("HEROKU_API_KEY")
 
-BOT_ID = getenv("BOT_ID")
+BOT_ID = getenv("BOT_ID", "5791761493")
 
 HEROKU_APP_NAME = getenv("HEROKU_APP_NAME")
 
@@ -49,10 +49,10 @@ UPSTREAM_BRANCH = getenv("UPSTREAM_BRANCH", "master")
 
 GIT_TOKEN = getenv("GIT_TOKEN", None)
 
-SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/Alexa_BotUpdates")
-SUPPORT_GROUP = getenv("SUPPORT_GROUP", "https://t.me/Alexa_Help")
+SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/mondo_lover")
+SUPPORT_GROUP = getenv("SUPPORT_GROUP", "https://t.me/team_comradess")
 
-AUTO_LEAVING_ASSISTANT = getenv("AUTO_LEAVING_ASSISTANT", "True")
+AUTO_LEAVING_ASSISTANT = getenv("AUTO_LEAVING_ASSISTANT", "False")
 
 AUTO_LEAVE_ASSISTANT_TIME = int(getenv("ASSISTANT_LEAVE_TIME", "11500"))
 
@@ -86,7 +86,7 @@ TG_AUDIO_FILESIZE_LIMIT = int(getenv("TG_AUDIO_FILESIZE_LIMIT", "104857600"))
 TG_VIDEO_FILESIZE_LIMIT = int(getenv("TG_VIDEO_FILESIZE_LIMIT", "1073741824"))
 # https://www.gbmb.org/mb-to-bytes
 
-STRING1 = getenv("STRING_SESSION", None)
+STRING1 = getenv("STRING_SESSION", "BQCcLuuvLRGSFVvIJb-B8LXpX6NC_aAaM9zZDEbnu3vgwtM5STYVmIa0-adyd3fs3DQxQR7pGOE-d346U6O3qp9Li_7qpZgKqlOwYZ-fT50iuewM1AYHqg3bxgKyEpKuAq0MEoRqX7CgnLKLOPHmfknPGL6SWw9L07EwiyoLFl14DKD7Fkk24au_iqwUX-pU1AxC9qVhkdmIY7i-RIc9Pcpzlcjo_aTvqt4CiapSqcvhuW8B7k8-2smGfmWIaZ1jCYyq6U0rJZgG3kqX65jt7VhOuPO5jOtJdqjJeyDPqKkEhmG3MDzrr3L7-nSTNt23Eb5MDhUpLwtlyUEr0dHJF-77AAAAAXML5aUA")
 STRING2 = getenv("STRING_SESSION2", None)
 STRING3 = getenv("STRING_SESSION3", None)
 STRING4 = getenv("STRING_SESSION4", None)
@@ -105,27 +105,27 @@ clean = {}
 autoclean = []
 
 START_IMG_URL = getenv(
-    "START_IMG_URL", "https://telegra.ph/file/d593c6064ff7657d0c714.jpg"
+    "START_IMG_URL", "https://telegra.ph/file/202c8e5a57f1f8597fe2a.jpg"
 )
 
 PING_IMG_URL = getenv(
     "PING_IMG_URL",
-    "assets/Ping.jpeg",
+    "https://telegra.ph/file/53112d2692ac8d0b499c0.jpg",
 )
 
 PLAYLIST_IMG_URL = getenv(
     "PLAYLIST_IMG_URL",
-    "assets/Playlist.jpeg",
+    "https://te.legra.ph/file/f13721b7511585e52a179.jpg",
 )
 
 GLOBAL_IMG_URL = getenv(
     "GLOBAL_IMG_URL",
-    "assets/Global.jpeg",
+    "https://te.legra.ph/file/ae3abdcc33afe6822c61b.jpg",
 )
 
 STATS_IMG_URL = getenv(
     "STATS_IMG_URL",
-    "assets/Stats.jpeg",
+    "https://te.legra.ph/file/e8007311f301c0011b743.jpg",
 )
 
 TELEGRAM_AUDIO_URL = getenv(
@@ -140,12 +140,12 @@ TELEGRAM_VIDEO_URL = getenv(
 
 STREAM_IMG_URL = getenv(
     "STREAM_IMG_URL",
-    "assets/Stream.jpeg",
+    "https://te.legra.ph/file/485f912bde710ba31817d.jpg",
 )
 
 SOUNCLOUD_IMG_URL = getenv(
     "SOUNCLOUD_IMG_URL",
-    "assets/Soundcloud.jpeg",
+    "https://te.legra.ph/file/d773ecc7a29e068c9ec3a.jpg",
 )
 
 YOUTUBE_IMG_URL = getenv(
